@@ -53,7 +53,7 @@ jobs:
 
     # Build APK
     - name: Build Debug APK
-      run: ./gradlew assembleDebug --no-daemon
+      run: ./gradlew :IMEService:assembleDebug --no-daemon
       env:
         JAVA_OPTS: -Xmx2048m
 
@@ -62,4 +62,4 @@ jobs:
       uses: actions/upload-artifact@v4
       with:
         name: debug-apk
-        path: app/build/outputs/apk/debug/
+        path: IMEService/build/outputs/apk/debug/
