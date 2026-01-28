@@ -45,7 +45,7 @@ public class DelegateApplication extends Application {
     private Application app;
 
     public DelegateApplication(Application app) {
-        this.app = app;
+        super();
     }
 
     private static final String TAG = "DelegateApplication";
