@@ -18,8 +18,9 @@
 package player.widget.media;
 
 import android.graphics.SurfaceTexture;
-import android.support.annotation.NonNull;
-import android.support.annotation.Nullable;
+package xllib.views;
+import androidx.annotation.NonNull;
+import androidx.annotation.Nullable;
 import android.view.Surface;
 import android.view.SurfaceHolder;
 import android.view.View;
