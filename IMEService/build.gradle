@@ -1,13 +1,13 @@
 apply plugin: 'com.android.application'
 
 android {
-    compileSdkVersion 26
-    buildToolsVersion '27.0.3'
+    compileSdkVersion 30
+    buildToolsVersion '30.0.3'
 
     defaultConfig {
         applicationId 'com.android.tvremoteplay'
         minSdkVersion 14
-        targetSdkVersion 26
+        targetSdkVersion 30
         versionCode 11
         versionName "1.4.1"
     }
